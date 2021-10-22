@@ -1,4 +1,4 @@
-const openMenu = document.querySelector(".header-right > a");
+/* const openMenu = document.querySelector(".header-right > a");
 const closeMenu = document.querySelector('.close');
 const hamburgerMenu = document.querySelector('.hamburger-menu');
 
@@ -8,7 +8,16 @@ openMenu.addEventListener('click', function() {
 
 closeMenu.addEventListener('click', function() {
     hamburgerMenu.style.display="none";
-});
+}); */
 
-/* commentodi prova */
+const openMenu = document.(".header-right > a");
+const closeMenu = document.querySelector('.close');
+const hamburgerMenu = document.querySelector('.hamburger-menu');
 
+
+
+
+  openMenu.addEventListener("click", function(){
+      .classList.add(".hamburger-menu");
+
+  });
