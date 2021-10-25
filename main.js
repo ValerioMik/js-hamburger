@@ -10,6 +10,8 @@ closeMenu.addEventListener('click', function() {
     hamburgerMenu.style.display="none";
 });
 
+/* prove */
+
 /* const openMenu = document.(".header-right > a");
 const closeMenu = document.querySelector('.close');
 const hamburgerMenu = document.querySelector('.hamburger-menu');
